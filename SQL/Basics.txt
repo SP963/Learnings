@@ -1,0 +1,21 @@
+1) What is DataBase 
+A)  A database is an electronically stored, systematic collection of data that can include various types 
+    of information such as words, numbers, images, videos, and files. It is designed to store, retrieve, 
+    and manage data efficiently, making data storage and retrieval faster and more organized compared to 
+    simple lists or spreadsheets.
+2) What is SQL
+A)  SQL (Structured Query Language) is used to perform operations on the records stored in the database, 
+    such as updating records, inserting records, deleting records, creating and modifying database tables, 
+    views, etc.
+3) Popular Databases -> PostgreSQL, My SQL, SQL Server
+4) Database installation 
+    My SQL -> go to "https://www.mysql.com/downloads/" click on "MySQL Community (GPL) Downloads »" and then click on 
+    "MySQL Installer for Windows"(if you are using windows) and install "mysql-installer-community-8.*.**.*.msi"(file with big size)
+    download the setup file to the system. after opening setup click on "Custom" and "next" and then 
+    select MySQL Server, MySQL Workbench, MySQL Shell and Samples and examples click on "next", "next", "execute" (Wait for some time to complete the installation)
+    setup MySQL root password : Innovation@123 
+    after installing need to set the path -> go to the path "C:\Program Files\MySQL\MySQL Server 8.0\bin" Environment Variables -> System Variables-> Path -> paste the path in the new line
+    now open cmdprompt -> mysql --version (need to display the version as output)
+    for starting the server in cmndprompt -> mysql -u "user_name" -p (Press enter)
+    click on server status in mySQL workbench -> if the service is inactive (Click on windows and search for services and search for MySQL and click on start)
+    open MySQL Workbench for Quering...

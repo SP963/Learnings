@@ -1,0 +1,7 @@
+1)  What is R?
+A)  R is an interpreted programming language widely used for statistical computing, data analysis and visualization. 
+    R language is open-source with large community support. R provides structured approach to data manipulation, 
+    along with decent libraries and packages like Dplyr, Ggplot2, shiny, Janitor and more.
+2)  installing R in the local system : https://posit.co/download/rstudio-desktop/
+    after downloading R and R studio we need to give path -> env variables -> system variables -> path -> add path of R
+3)  Setting up R-Studio in VS Code -> 
