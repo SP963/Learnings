@@ -1,0 +1,7 @@
+|Day 1 | Task                               | Description                                                            |
+|   :  | ---------------------------------- | ---------------------------------------------------------------------- |
+|   1  | **Install R & RStudio**            | Set up the tools you'll use throughout the 90 days                     |
+|   2  | **Explore RStudio Interface**      | Understand panes: Console, Script, Environment, Plots, Help, etc.      |
+|   3  | **Create & Run Your First Script** | Try `print("Hello, R!")`, `2 + 2`, `sqrt(25)`, etc.                    |
+|   4  | **Basic Math Operations in R**     | Do addition, subtraction, multiplication, division, square roots, logs |
+|   5  | **Use Comments & Variables**       | Learn how to use `#` for comments and assign variables like `x <- 10`  |

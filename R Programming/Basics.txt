@@ -4,4 +4,22 @@ A)  R is an interpreted programming language widely used for statistical computi
     along with decent libraries and packages like Dplyr, Ggplot2, shiny, Janitor and more.
 2)  installing R in the local system : https://posit.co/download/rstudio-desktop/
     after downloading R and R studio we need to give path -> env variables -> system variables -> path -> add path of R
-3)  Setting up R-Studio in VS Code -> 
+3)  Setting up R-Studio in VS Code -> install extension (REditorSupport) and start writing the R scripts
+4)  Finding help in R
+A)  using terminal -> help.search("Topic"), help(),help.start()
+    using GUI -> navigate to help option and then you will find "R help", "Search R help" you will find all sort of help information.
+    installes packages information -> find("package name")
+    search -> apropos("searched")
+    examples -> example("topic to be searched")
+    demonstration of R functions -> demo("function name")
+    quit -> q() and press enter
+    Installing Packages -> install.packages("Package name") (or) go to packages in right side window and then click on install and give package name to install package.
+4)  Interface of R Studio
+A)  1) Script session 2) Environment Window 3) Console Window 4) Output Window
+5)  Variable Assignment [a <- 1] a = variable name , <- = Assignment operator, 1 = Value
+6)  for commenting we can use "#"
+7)  R is Case sensitve.
+8)  to store multiple values in a variable we need to use Vector [y <- c(1,2,3,4,5)]
+9)  for printing a statement in R [print(paste("Welcome to R,",name))]
+10) Data Types in R -> Numeric(Real numbers), Integer(Whole Numbers)[to represent integer datatype we need to suffix L], Complex(a+ib), Char(String), Logical(Bool[0,1]), Raw(Store raw bytes)
+11) Data Structures in R -> Vector (homogeneous data), List (heterogeneous data), Matrix (2D homogeneous), Data Frame (2D heterogeneous, like a spreadsheet), Factor (categorical data), Array (multidimensional). 
